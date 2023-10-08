@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #app {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px 0;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .delete-icon {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
